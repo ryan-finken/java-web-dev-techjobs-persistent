@@ -13,7 +13,7 @@ public class Job extends AbstractEntity {
     public Job() {
     }
 
-//    public Job(Employer employer, String someSkills) {
+//    public Job(Employer employer, String someSkills) { // this constructor seems unnecessary, so I commented it out
 //        super();
 //        this.employer = employer;
 //        this.skills = someSkills;
