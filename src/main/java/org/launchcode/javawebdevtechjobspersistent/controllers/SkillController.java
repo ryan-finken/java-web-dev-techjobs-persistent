@@ -21,13 +21,13 @@ public class SkillController {
     @GetMapping
     public String index(Model model) {
         model.addAttribute("skills", skillRepository.findAll());
-        return "employers/index";
+        return "skills/index";
     }
 
     @GetMapping("add")
     public String displayAddSkillForm(Model model) {
         model.addAttribute(new Skill());
-        return "employers/add";
+        return "skills/add";
     }
 
     @PostMapping("add")
