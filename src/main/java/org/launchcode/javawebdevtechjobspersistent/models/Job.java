@@ -13,11 +13,11 @@ public class Job extends AbstractEntity {
     public Job() {
     }
 
-    public Job(Employer employer, String someSkills) {
-        super();
-        this.employer = employer;
-        this.skills = someSkills;
-    }
+//    public Job(Employer employer, String someSkills) {
+//        super();
+//        this.employer = employer;
+//        this.skills = someSkills;
+//    }
 
     // Getters and setters.
 
