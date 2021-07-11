@@ -19,4 +19,4 @@ DROP TABLE job;
 -- Show all skills that are attached to job records (duplicate skill records excluded)
 SELECT DISTINCT name, description
 FROM skill
-INNER JOIN job_skills ON skill.id = job_skills.skills_id;
+JOIN job_skills ON skill.id = job_skills.skills_id;
